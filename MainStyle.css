@@ -1,0 +1,170 @@
+
+body {
+font-family: verdana;
+background-color: #000;
+margin-left:auto;
+margin-right:auto;
+width: 1200px;
+
+}
+
+hr {
+color: #000;
+background-color: #000;
+height: 1px;
+margin-right:10px;
+margin-left:10px;
+margin-bottom:10px;
+position:relative;
+}
+
+.menuPanel {
+background-color:#f00;
+height: 100px;
+width: 1200px;
+}
+
+.contentPanel {
+float:left;
+background-color:#0f0;
+height: 1500px;
+width: 800px;
+position: relative;
+}
+
+.collectionPanel {
+float:left;
+background-color:#00f;
+right: 0px;
+bottom: 0px;
+width: 400px;
+height:1500px;
+position:relative;
+}
+
+.menuBarBox {
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+
+.coverArtPanel	{
+background-color:#ff0;
+float: left;
+width: 300px;
+height:300px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-top: 20px;
+position:absolute;
+}
+
+.gameInfoPanel {
+background-color:#f0f;
+left: 320px;
+width: 440px;
+height:300px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-top: 20px;
+position:relative;}
+
+.descriptionPanel {
+background-color:#0ff;
+float: left;
+width: 560px;
+height:400px;
+margin-left: 20px;
+position:absolute;}
+
+.ratingsPanel {
+background-color:#fff;
+left: 580px;
+width:180px;
+height:400px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-top: 10px;
+position:relative;}
+
+.mediaPanel {
+background-color:#fff;
+float: left;
+width: 760px;
+height:175px;
+margin-left: 20px;
+margin-bottom: 20px;
+position:absolute;}
+
+.titleScreenPanel {
+background-color:#f00;
+float: left;
+width: 175px;
+height:175px;
+margin-left: 0px;
+}
+
+.screenshotPanel {
+background-color:#00f;
+float: left;
+width: 175px;
+height:175px;
+margin-left: 20px;
+}
+
+.screenshotPanel2 {
+background-color:#ff0;
+float: left;
+width: 175px;
+height:175px;
+margin-left: 20px;
+}
+
+.videoPanel {
+background-color:#f0f;
+float: left;
+width: 175px;
+height:175px;
+margin-left: 20px;
+
+}
+
+img.coverArta {
+max-width: 200px;
+max-height: 300px;
+}
+
+.headerBoxa {
+margin-top: 0px;
+font-size: 140%;
+padding: 0px;
+line-height: .75;
+}
+
+.gameTitlea {
+font-size: 180%;
+font-weight: bold;
+}
+
+.gameDatea {
+margin-top: -5px;
+}
+
+.gamePlatforma {
+font-weight: bold;
+}
+
+.gamePlatformAbbreviationa {
+font-weight: bold;
+}
+
+
+div.MyCollectiona {
+position: absolute;
+right: 10px;
+width: 300px;
+}
+
+
