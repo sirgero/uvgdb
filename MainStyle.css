@@ -1,68 +1,21 @@
-
-body {
-font-family: verdana;
-background-color: #000;
-margin-left:auto;
-margin-right:auto;
-width: 1200px;
-
-}
-
-hr {
-color: #000;
-background-color: #000;
-height: 1px;
-margin-right:10px;
-margin-left:10px;
-margin-bottom:10px;
-position:relative;
-}
-
-hr2 {
-color: #000;
-background-color: #000;
-height: 1px;
-margin-top:1500px;
-margin-right:10px;
-margin-left:10px;
-margin-bottom:10px;
-position:absolute;
-}
-
 .menuPanel {
-background-color:#f00;
-height: 100px;
-width: 1200px;
+    background-color:#f00;
+    height: 100px;
+    width: 1200px;
 }
 
 .contentPanel {
-float:left;
-background-color:#0f0;
-height: 1500px;
-width: 1000px;
-position: relative;
+    float:left;
+    background-color:#0f0;
+    height: 1360px;
+    width: 800px;
+    position: relative;
 }
 
-.cover-info-section {
+.coverArtGameInfoContainer {
     width:100%;
-    height:340px;
+    height:310px;
     position:relative;
-}
-
-
-.collectionPanel {
-float:left;
-background-color:#00f;
-right: 0px;
-bottom: 0px;
-width: 400px;
-height:1500px;
-position:relative;
-}
-
-.menuBarBox {
-padding-bottom: 10px;
-margin-bottom: 10px;
 }
 
 .coverArtPanel	{
@@ -70,7 +23,7 @@ margin-bottom: 10px;
     width: 300px;
     height:300px;
     position:absolute;
-    top:20px;
+    top:10px;
     left:20px;
 }
 
@@ -80,68 +33,165 @@ margin-bottom: 10px;
     position:absolute;
     left:340px;
     right:20px;
-    top:20px;
+    top:10px;
+}
+
+.descriptionRatingContainer {
+    width:100%;
+    height:400px;
+    position:relative;
 }
 
 .descriptionPanel {
-background-color:#0ff;
-float: left;
-width: 560px;
-height:400px;
-margin-left: 20px;
-position:absolute;}
+    background-color:#0ff;
+    width: 560px;
+    height:400px;
+    position:absolute;
+    top:0px;
+    left:20px;
+}
 
 .ratingsPanel {
-background-color:#fff;
-left: 580px;
-width:180px;
-height:400px;
-margin-left: 20px;
-margin-right: 20px;
-margin-bottom: 10px;
-margin-top: 10px;
-position:relative;}
+    background-color:#fff;
+    height:400px;
+    position:absolute;
+    left: 600px;
+    right:20px;
+    top:0px;
+}
 
-.mediaPanel {
-background-color:#fff;
-float: left;
-width: 760px;
-height:175px;
-margin-left: 20px;
-margin-bottom: 20px;
-position:absolute;}
+.otherLinksContainer {
+    width:100%;
+    height:400px;
+    position:relative;
+}
+
+.otherReleasesPanel {
+    background-color:#098;
+    position:absolute;
+    width: 380px;
+    height: 400px;
+    top:0px;
+    left:20px;
+}
+
+.tryThisPanel {
+    background-color:#e9f;
+    height:400px;
+    position:absolute;
+    left: 410px;
+    right:20px;
+    top:0px;
+}
+
+.collectionPanel {
+    float:left;
+    background-color:#00f;
+    right: 0px;
+    bottom: 0px;
+    width: 400px;
+    height:1360px;
+    position:relative;
+}
+
+.menuBarBox {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.mediaPanelContainer {
+    width: 100%;
+    height:175px;
+    position:relative;
+}
 
 .titleScreenPanel {
-background-color:#f00;
-float: left;
-width: 175px;
-height:175px;
-margin-left: 0px;
-
+    background-color:#f00;
+    float:left;
+    width: 175px;
+    height:175px;
+    margin-left: 20px;
+    left:20px;
 }
 
 .screenshotPanel {
-background-color:#00f;
-float: left;
-width: 175px;
-height:175px;
-margin-left: 20px;
+    background-color:#00f;
+    float: left;
+    width: 175px;
+    height:175px;
+    margin-left: 20px;
 }
 
 .screenshotPanel2 {
-background-color:#ff0;
-float: left;
-width: 175px;
-height:175px;
-margin-left: 20px;
+    background-color:#ff0;
+    float: left;
+    width: 175px;
+    height:175px;
+    margin-left: 20px;
 }
 
 .videoPanel {
-background-color:#f0f;
-float: left;
-width: 175px;
-height:175px;
-margin-left: 20px;
+    background-color:#f0f;
+    float: left;
+    width: 175px;
+    height:175px;
+    margin-left: 20px;
+}
+
+.ownPanel {
+    background-color:#fff;
+    height:182px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.playedPanel {
+    background-color:#eee;
+    height:178px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.usedToOwnPanel {
+    background-color:#ddd;
+    height:178px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.rentedPanel {
+    background-color:#ccc;
+    height:178px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.borrowedPanel {
+    background-color:#bbb;
+    height:178px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.lentPanel {
+    background-color:#aaa;
+    height:178px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.wantPanel {
+    background-color:#999;
+    height:178px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 img.coverArta {
@@ -181,3 +231,19 @@ width: 300px;
 }
 
 
+
+body {
+    font-family: verdana;
+    background-color: #000;
+    margin-left:auto;
+    margin-right:auto;
+    width: 1200px;
+}
+
+hr {
+    color: #000;
+    background-color: #000;
+    height: 1px;
+    margin-right:10px;
+    margin-left:10px;
+}
