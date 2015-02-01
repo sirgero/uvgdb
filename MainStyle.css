@@ -18,6 +18,17 @@ margin-bottom:10px;
 position:relative;
 }
 
+hr2 {
+color: #000;
+background-color: #000;
+height: 1px;
+margin-top:1500px;
+margin-right:10px;
+margin-left:10px;
+margin-bottom:10px;
+position:absolute;
+}
+
 .menuPanel {
 background-color:#f00;
 height: 100px;
@@ -104,6 +115,7 @@ float: left;
 width: 175px;
 height:175px;
 margin-left: 0px;
+
 }
 
 .screenshotPanel {
@@ -128,7 +140,6 @@ float: left;
 width: 175px;
 height:175px;
 margin-left: 20px;
-
 }
 
 img.coverArta {
