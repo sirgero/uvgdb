@@ -6,9 +6,9 @@
 
 .contentPanel {
     float:left;
-    background-color:#fff;
+    background-color:#0f0;
     height: 1360px;
-    width: 900px;
+    width: 800px;
     position: relative;
 }
 
@@ -19,48 +19,21 @@
 }
 
 .coverArtPanel	{
-    background-color:#fff;
+    background-color:#ff0;
     width: 300px;
     height:300px;
     position:absolute;
-    top:5px;
-    left:5px;
-    text-align:center;
+    top:10px;
+    left:20px;
 }
 
 .gameInfoPanel {
-    background-color:#fff;    
-    height:300px;
+    background-color:#f0f;    
+    height:300px;    
     position:absolute;
-    left:315px;
-    right:5px;
-    top:5px;    
-}
-
-.gameInfoColumns {
-    width:100%;
-    background-color:#fff;
-    height:215px;
-    position:relative;
-    left:0px;
-    right:5px;
-    top:0px;
-}
-
-.gameInfoColumn1 {
-    background-color:#FFF;
-    left:0px;
-    width:50%;
-    height:215px;
-    position:absolute;
-}
-
-.gameInfoColumn2 {
-    background-color:#FFF;
-    right:0px;
-    width:50%;
-    height:215px;
-    position:absolute;
+    left:340px;
+    right:20px;
+    top:10px;
 }
 
 .descriptionRatingContainer {
@@ -70,22 +43,21 @@
 }
 
 .descriptionPanel {
-    background-color:#fff;
+    background-color:#0ff;
     width: 560px;
     height:400px;
     position:absolute;
     top:0px;
-    left:5px;
+    left:20px;
 }
 
 .ratingsPanel {
     background-color:#fff;
     height:400px;
     position:absolute;
-    left: 570px;
-    right:5px;
+    left: 600px;
+    right:20px;
     top:0px;
-    padding-left:5px;
 }
 
 .otherLinksContainer {
@@ -115,9 +87,9 @@
 .collectionPanel {
     float:left;
     background-color:#00f;
-    right: 00px;
+    right: 0px;
     bottom: 0px;
-    width: 300px;
+    width: 400px;
     height:1360px;
     position:relative;
 }
@@ -222,53 +194,43 @@
     margin-right:10px;
 }
 
-img.coverArt {
-    max-width: 300px;
-    max-height: 300px;
-    text-align:center;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+img.coverArta {
+max-width: 200px;
+max-height: 300px;
 }
 
-.gameTitle {
-    font-size: 180%;
-    font-weight: bold;
+.headerBoxa {
+margin-top: 0px;
+font-size: 140%;
+padding: 0px;
+line-height: .75;
 }
 
-.gameDate {
-    margin-top: -5px;
+.gameTitlea {
+font-size: 180%;
+font-weight: bold;
 }
 
-.gamePlatform {
-    font-weight: bold;
+.gameDatea {
+margin-top: -5px;
 }
 
-.gamePlatformAbbreviation {
-    font-weight: bold;
+.gamePlatforma {
+font-weight: bold;
 }
 
-.gameInfoHeader {
-    font-weight:bold;
-    font-size: 80%;
-    padding-left:5px;
+.gamePlatformAbbreviationa {
+font-weight: bold;
 }
 
-.descriptionHeader {
-    font-weight:bold;
-    font-size: 80%;
+
+div.MyCollectiona {
+position: absolute;
+right: 10px;
+width: 300px;
 }
 
-.descriptionContent {
-    font-weight:normal;
-    font-size: 80%;
-}
 
-.gameInfoContent {
-    font-weight:normal;
-    font-size: 80%;
-}
 
 body {
     font-family: verdana;
@@ -284,25 +246,4 @@ hr {
     height: 1px;
     margin-right:10px;
     margin-left:10px;
-}
-
-hr.hr2 {
-    color: #000;
-    background-color: #000;
-    height: 1px;
-    margin-right:0px;
-    margin-left:0px;
-}
-
-.headerBoxa {
-    margin-top: 0px;
-    font-size: 140%;
-    padding: 0px;
-    line-height: .75;
-}
-
-div.MyCollectiona {
-position: absolute;
-right: 10px;
-width: 300px;
 }
